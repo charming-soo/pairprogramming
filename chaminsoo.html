@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" lang="korean">
+  <title>저는 차민수입니다.</title>
+</head>
+<style>
+  ul{
+    list-style: none;
+    font-size : 20px;
+  }
+  ol{
+    font-size : 20px;
+    list-style: none;
+  }
+  a{
+    text-align: center;
+  }
+</style>
+<body>
+  <div id="map" style="width: 500px; height: 400px"></div>
+    <script
+      type="text/javascript"
+      src="//dapi.kakao.com/v2/maps/sdk.js?appkey=myAppkey"
+    ></script>
+    <script>
+      var container = document.getElementById("map");
+      var options = {
+        center: new kakao.maps.LatLng(37.40141653483619, 126.72213720679174),
+        level: 3,
+      };
+      var map = new kakao.maps.Map(container, options);
+    </script>
+  <ul>
+    <li style="text-align: center;">이름 : 차 민수 CHA MIN SOO</li><br>
+    <li style="text-align: center;">학과 : 명지대학교 정보통신공학과</li><br>
+    <li style="text-align: center;">나이 : 1997년 05월 30일생 만 23세, 25세 반오십...</li><br>
+    <li style="text-align: center;">취미 : 헬스(웨이트 트레이닝)</li>
+  </ul><br>
+  <ol>
+    <p style="text-align: center;">[좋아하는 활동이나 음식]</p>
+    <li style="text-align: center;">멋쟁이 사자처럼 강의듣고 과제하기</li>
+    <li style="text-align: center;">헬스하고 인바디측정하고 뿌듯해하기</li>
+    <li style="text-align: center;">육회막국수</li>
+  </ol style="text-align: center;">
+  <ul>오늘 하면서 느낀 점 : 진정한 개발자들만 한다는 Gather를 사용하여 너무 재밌었다.</ul>
+  <div style="text-align: center; font-size: 30px;"><a href="Home.html">Home으로 이동하기</a></div>
+</body>
+</html>

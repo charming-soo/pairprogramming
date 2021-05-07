@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>강민정</title>
+  <meta charset="utf-8">
+  <link rel=" ">
+</head>
+<body>
+    <div id="map" style="width:500px;height:400px;"></div>
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=myAppkey"></script>
+    <script>
+        var container = document.getElementById('map');
+        var options = {
+            center: new kakao.maps.LatLng(37.29699047043607, 127.07014331902938),
+            level: 3
+        };
+        var map = new kakao.maps.Map(container, options);
+    </script>
+    <ul>
+        <li>이름 : 강민정 </li>
+        <li>학과 : 사학과 </li>
+        <li>나이 : 23</li>
+        <li>취미 : 영화 운동 여행</li>
+      </ul>
+      <ol>
+        <p>좋아하는 활동이나 음식</p>
+        <li>엽떡 </li>
+        <li>닭갈비</li>
+        <li>된장찌개</li>
+      </ol>
+    <ul>오늘 하면서 느낀점 : api를 이용한 페이지를 만들어보고 싶었는데 기회가 되어 좋았습니다.</ul>
+    <ul>Home으로 이동하기
+        <a href="Home.html">Home으로 이동하기</a>
+    </ul>
+</body>
+</html>
